@@ -1,5 +1,7 @@
 from .base import *
 from .secret import *
+import sys
+
 print(BASE_DIR)
 """
 This section explains all the changes i make in this file
@@ -38,3 +40,14 @@ TEMPLATES[0]['DIRS'] = [
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
 ]
+
+"""
+- Adding support for 'apps' folder usage.
+"""
+sys.path.insert(0, os.path.join(BASE_DIR, 'apps'))
+
+"""
+- Created a 'mdb' app, now adding it to settings.
+"""
+
+INSTALLED_APPS += ['mdb.apps.MdbConfig']
