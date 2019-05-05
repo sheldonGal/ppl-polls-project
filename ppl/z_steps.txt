@@ -1,2 +1,3 @@
 conda install -c anaconda django
 conda install -c anaconda sqlparse
+conda install -c anaconda psycopg2
