@@ -102,3 +102,7 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# my ignores
+ppl/settings/secret.py
+
