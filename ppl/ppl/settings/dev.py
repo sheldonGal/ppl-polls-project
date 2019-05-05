@@ -1,6 +1,6 @@
 from .base import *
 from .secret import *
-
+print(BASE_DIR)
 """
 This section explains all the changes i make in this file
 """
