@@ -1,0 +1,2 @@
+conda install -c anaconda django
+conda install -c anaconda sqlparse
